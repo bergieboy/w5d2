@@ -1,0 +1,46 @@
+/* PHASE 2: Notifications */
+.badge {
+  display: inline;
+  font-size: 14px;
+  padding: 1px 6px;
+  background: #000;
+  border-radius: 50%;
+  }
+
+.header-list:hover .badge {
+  background: red;
+}
+
+.header {
+  position: relative;
+}
+.header-list > li {
+  position: relative;
+}
+
+.drop-down {
+  display: none;
+  position: relative;
+  left: -1px;
+  font-size: 14px;
+  white-space: nowrap;
+  background: #fff;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+}
+
+.drop-down ul {
+  position: absolute;
+}
+
+li:hover .drop-down {
+  position: absolute;
+  display: block;
+  background: #eee;
+  color: #000;
+  border-top: 1px solid #ccc;
+}
